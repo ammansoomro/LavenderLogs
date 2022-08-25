@@ -1,0 +1,49 @@
+<div class="details">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Faculty Details</h2>
+                    <a href="Faculty_Details.php" class="btn">View All Details</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Teacher_ID</td>
+                            <td>Department</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php while ($rows = $result->fetch_assoc()) { ?>
+                            <tr>
+                                <td> <?php echo $rows["Name"]; ?> </td>
+                                <td> <?php echo $rows["Teacher_ID"]; ?> </td>
+                                <td> <?php echo $rows["Department_ID"]; ?> </td>
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="recentCustomers">
+                <div class="cardHeader">
+                    <h2>Students Details</h2>
+                    <a href="Student_Details.php" class="btn">View All</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Student ID</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php while ($rows2 = $result2->fetch_assoc()) { ?>
+                            <tr>
+                                <td> <?php echo $rows2["Name"]; ?> </td>
+                                <td> <?php echo $rows2["Student_ID"]; ?> </td>
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
