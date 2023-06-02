@@ -2,7 +2,7 @@
 
 Demo: http://darktestsite007.000webhostapp.com/
 
-A web-based, Blog Post Management System developed using Php, HTML, and JS including MySQL Database as a backend to store all the data. The consists of different dashboards based on user-role (User or Admin).
+A web-based, Blog Post Management System developed using Php, HTML, and JS including MySQL Database as a backend to store all the data. The consists of different dashboards based on user-role (User or Admin). 
 
 <h1 align="center">To run the Project</h1>
 
