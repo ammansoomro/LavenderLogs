@@ -1,4 +1,4 @@
-# BlogPost-Management-System
+# LavenderLogs
 
 Demo: http://darktestsite007.000webhostapp.com/
 
